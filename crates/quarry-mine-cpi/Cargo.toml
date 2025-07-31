@@ -1,0 +1,20 @@
+[package]
+name = "quarry-mine-cpi"
+version = "0.1.0"
+description = "Rust interface library for Quarry Mine"
+edition = "2021"
+
+[lints]
+workspace = true
+
+[features]
+default = ["cpi"]
+cpi = ["no-entrypoint"]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+idl-build = ["anchor-lang/idl-build"]
+
+[dependencies]
+anchor-lang = "0.31.1"
+bytemuck = { version = "1.23", features = ["derive"] }
