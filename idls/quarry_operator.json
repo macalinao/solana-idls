@@ -43,10 +43,12 @@
           "signer": true
         },
         {
-          "name": "system_program"
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
         },
         {
-          "name": "quarry_mine_program"
+          "name": "quarry_mine_program",
+          "address": "QMNeHCGYnLVDn1icRAfQZpjPLBNkfGbSKRB83G5d8KB"
         }
       ],
       "args": [
@@ -93,10 +95,12 @@
           "signer": true
         },
         {
-          "name": "system_program"
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
         },
         {
-          "name": "quarry_mine_program"
+          "name": "quarry_mine_program",
+          "address": "QMNeHCGYnLVDn1icRAfQZpjPLBNkfGbSKRB83G5d8KB"
         }
       ],
       "args": []
@@ -193,7 +197,8 @@
               "writable": true
             },
             {
-              "name": "quarry_mine_program"
+              "name": "quarry_mine_program",
+              "address": "QMNeHCGYnLVDn1icRAfQZpjPLBNkfGbSKRB83G5d8KB"
             }
           ]
         }
@@ -225,7 +230,8 @@
               "writable": true
             },
             {
-              "name": "quarry_mine_program"
+              "name": "quarry_mine_program",
+              "address": "QMNeHCGYnLVDn1icRAfQZpjPLBNkfGbSKRB83G5d8KB"
             }
           ]
         },
@@ -245,7 +251,8 @@
           "name": "unused_account"
         },
         {
-          "name": "system_program"
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
         }
       ],
       "args": [
@@ -275,7 +282,8 @@
               "writable": true
             },
             {
-              "name": "quarry_mine_program"
+              "name": "quarry_mine_program",
+              "address": "QMNeHCGYnLVDn1icRAfQZpjPLBNkfGbSKRB83G5d8KB"
             }
           ]
         },
@@ -292,7 +300,8 @@
           "signer": true
         },
         {
-          "name": "system_program"
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
         }
       ],
       "args": []
@@ -317,7 +326,8 @@
               "writable": true
             },
             {
-              "name": "quarry_mine_program"
+              "name": "quarry_mine_program",
+              "address": "QMNeHCGYnLVDn1icRAfQZpjPLBNkfGbSKRB83G5d8KB"
             }
           ]
         },
@@ -353,7 +363,8 @@
               "writable": true
             },
             {
-              "name": "quarry_mine_program"
+              "name": "quarry_mine_program",
+              "address": "QMNeHCGYnLVDn1icRAfQZpjPLBNkfGbSKRB83G5d8KB"
             }
           ]
         },

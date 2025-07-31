@@ -55,13 +55,16 @@
           "signer": true
         },
         {
-          "name": "token_program"
+          "name": "token_program",
+          "address": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
-          "name": "system_program"
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
         },
         {
-          "name": "rent"
+          "name": "rent",
+          "address": "SysvarRent111111111111111111111111111111111"
         }
       ],
       "args": [
@@ -124,13 +127,16 @@
           "signer": true
         },
         {
-          "name": "token_program"
+          "name": "token_program",
+          "address": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         },
         {
-          "name": "system_program"
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
         },
         {
-          "name": "rent"
+          "name": "rent",
+          "address": "SysvarRent111111111111111111111111111111111"
         }
       ],
       "args": []
@@ -174,7 +180,8 @@
           "signer": true
         },
         {
-          "name": "system_program"
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
         }
       ],
       "args": [
@@ -223,7 +230,8 @@
           "signer": true
         },
         {
-          "name": "system_program"
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
         }
       ],
       "args": []
@@ -261,13 +269,16 @@
           "signer": true
         },
         {
-          "name": "mine_program"
+          "name": "mine_program",
+          "address": "QMNeHCGYnLVDn1icRAfQZpjPLBNkfGbSKRB83G5d8KB"
         },
         {
-          "name": "system_program"
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
         },
         {
-          "name": "token_program"
+          "name": "token_program",
+          "address": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         }
       ],
       "args": [
@@ -310,13 +321,16 @@
           "signer": true
         },
         {
-          "name": "mine_program"
+          "name": "mine_program",
+          "address": "QMNeHCGYnLVDn1icRAfQZpjPLBNkfGbSKRB83G5d8KB"
         },
         {
-          "name": "system_program"
+          "name": "system_program",
+          "address": "11111111111111111111111111111111"
         },
         {
-          "name": "token_program"
+          "name": "token_program",
+          "address": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         }
       ],
       "args": []
@@ -360,10 +374,12 @@
               "writable": true
             },
             {
-              "name": "token_program"
+              "name": "token_program",
+              "address": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
             },
             {
-              "name": "mine_program"
+              "name": "mine_program",
+              "address": "QMNeHCGYnLVDn1icRAfQZpjPLBNkfGbSKRB83G5d8KB"
             }
           ]
         }
@@ -413,10 +429,12 @@
               "writable": true
             },
             {
-              "name": "token_program"
+              "name": "token_program",
+              "address": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
             },
             {
-              "name": "mine_program"
+              "name": "mine_program",
+              "address": "QMNeHCGYnLVDn1icRAfQZpjPLBNkfGbSKRB83G5d8KB"
             }
           ]
         }
@@ -462,10 +480,12 @@
               "writable": true
             },
             {
-              "name": "token_program"
+              "name": "token_program",
+              "address": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
             },
             {
-              "name": "mine_program"
+              "name": "mine_program",
+              "address": "QMNeHCGYnLVDn1icRAfQZpjPLBNkfGbSKRB83G5d8KB"
             }
           ]
         }
@@ -520,10 +540,12 @@
               "writable": true
             },
             {
-              "name": "token_program"
+              "name": "token_program",
+              "address": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
             },
             {
-              "name": "mine_program"
+              "name": "mine_program",
+              "address": "QMNeHCGYnLVDn1icRAfQZpjPLBNkfGbSKRB83G5d8KB"
             }
           ]
         }
@@ -557,7 +579,8 @@
           "writable": true
         },
         {
-          "name": "token_program"
+          "name": "token_program",
+          "address": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         }
       ],
       "args": []
@@ -588,10 +611,12 @@
           "writable": true
         },
         {
-          "name": "quarry_mine_program"
+          "name": "quarry_mine_program",
+          "address": "QMNeHCGYnLVDn1icRAfQZpjPLBNkfGbSKRB83G5d8KB"
         },
         {
-          "name": "token_program"
+          "name": "token_program",
+          "address": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
         }
       ],
       "args": []
@@ -654,10 +679,12 @@
               "writable": true
             },
             {
-              "name": "token_program"
+              "name": "token_program",
+              "address": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
             },
             {
-              "name": "mine_program"
+              "name": "mine_program",
+              "address": "QMNeHCGYnLVDn1icRAfQZpjPLBNkfGbSKRB83G5d8KB"
             }
           ]
         }
