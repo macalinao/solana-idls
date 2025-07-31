@@ -348,7 +348,7 @@
           "writable": true
         },
         {
-          "name": "stake",
+          "name": "stake_primary_miner_stake",
           "accounts": [
             {
               "name": "pool",
@@ -403,7 +403,7 @@
           "writable": true
         },
         {
-          "name": "stake",
+          "name": "stake_replica_miner_stake",
           "accounts": [
             {
               "name": "pool",
@@ -454,7 +454,7 @@
           "writable": true
         },
         {
-          "name": "stake",
+          "name": "unstake_primary_miner_stake",
           "accounts": [
             {
               "name": "pool",
@@ -514,7 +514,7 @@
           "writable": true
         },
         {
-          "name": "stake",
+          "name": "unstake_all_replica_miner_stake",
           "accounts": [
             {
               "name": "pool",
@@ -653,7 +653,7 @@
           "writable": true
         },
         {
-          "name": "stake",
+          "name": "claim_rewards_stake",
           "accounts": [
             {
               "name": "pool",
