@@ -3,6 +3,12 @@ name = "solana-cpis"
 version = "0.1.0"
 description = "Generate CPI clients for various Solana Anchor programs."
 edition = "2021"
+authors = ["Ian Macalinao <me@ianm.com>"]
+license = "Apache-2.0"
+license-file = "../../LICENSE.txt"
+repository = "https://github.com/macalinao/solana-idls"
+homepage = "https://github.com/macalinao/solana-idls"
+readme = "README.md"
 
 [lints]
 workspace = true

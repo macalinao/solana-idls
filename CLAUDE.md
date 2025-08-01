@@ -5,6 +5,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ## Commands
 
 ### Build
+
 ```bash
 # Build all packages
 bun run build
@@ -20,6 +21,7 @@ cargo build --release
 ```
 
 ### Lint and Format
+
 ```bash
 # Run linting and formatting checks
 bun run lint
@@ -32,6 +34,7 @@ biome check --write
 ```
 
 ### Test
+
 ```bash
 # Run all tests
 bun run test
@@ -47,6 +50,7 @@ cargo nextest run
 ```
 
 ### Development
+
 ```bash
 # Clean build artifacts
 bun run clean
@@ -62,6 +66,7 @@ bun run codegen
 ```
 
 ### Publishing
+
 ```bash
 # Create a changeset
 bun run changeset
@@ -78,24 +83,27 @@ bun run changeset:publish
 This repository maintains a registry of Solana program IDLs and generates CPI (Cross-Program Invocation) crates for Anchor programs. The key components are:
 
 ### Directory Structure
-- `source-idls/`: Original IDL files for Quarry programs
+
+- `source-idls/`: Original IDL files for Solana programs
 - `idls/`: Processed IDL files with metadata (addresses) added
-- `crates/`: Rust CPI crates generated from IDLs
-  - `quarry-mine-cpi/`: CPI crate for Quarry Mine program
-  - `quarry-merge-mine-cpi/`: CPI crate for Quarry Merge Mine program
+- `crates/`: Contains the main `solana-cpis` crate with all CPI interfaces
+  - `solana-cpis/`: Aggregated crate containing CPI clients for multiple programs
 - `packages/`: TypeScript/JavaScript packages (currently empty, workspace configured)
 - `scripts/`: Processing scripts for IDL conversion
 
 ### IDL Processing Flow
+
 1. Source IDL files are stored in `source-idls/`
 2. Program addresses are defined in `addresses.toml`
 3. `scripts/process_idls.sh` reads addresses and adds metadata to IDLs
 4. Processed IDLs are saved to `idls/` with proper formatting
 
 ### CPI Crate Generation
-The Rust crates use Anchor's `declare_program!` macro to generate type-safe interfaces for cross-program invocations. Each crate corresponds to a Solana program and provides Rust bindings for interacting with that program.
+
+The `solana-cpis` crate uses Anchor's `declare_program!` macro to generate type-safe interfaces for cross-program invocations. This single crate aggregates multiple program interfaces, providing a convenient way to access CPI clients for various Solana programs in one dependency.
 
 ### Development Environment
+
 - Uses `devenv.nix` for consistent development environment
 - Includes Solana CLI, Anchor, and Rust toolchain
 - Uses Bun as the JavaScript runtime and package manager
