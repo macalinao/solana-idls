@@ -540,7 +540,8 @@
           "writable": true
         },
         {
-          "name": "mint_wrapper_program"
+          "name": "mint_wrapper_program",
+          "address": "QMWoBmAyJLAsA1Lh9ugMTw2gciTihncciphzdNzdZYV"
         },
         {
           "name": "minter",
@@ -600,7 +601,8 @@
           "writable": true
         },
         {
-          "name": "mint_wrapper_program"
+          "name": "mint_wrapper_program",
+          "address": "QMWoBmAyJLAsA1Lh9ugMTw2gciTihncciphzdNzdZYV"
         },
         {
           "name": "minter",
