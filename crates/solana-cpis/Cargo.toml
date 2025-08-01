@@ -1,7 +1,7 @@
 [package]
-name = "quarry-mine-cpi"
+name = "solana-cpis"
 version = "0.1.0"
-description = "Rust interface library for Quarry Mine"
+description = "Generate CPI clients for various Solana Anchor programs."
 edition = "2021"
 
 [lints]

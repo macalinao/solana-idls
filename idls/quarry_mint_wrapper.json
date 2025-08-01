@@ -154,7 +154,7 @@
       "discriminator": [14, 95, 216, 55, 122, 115, 37, 250],
       "accounts": [
         {
-          "name": "auth",
+          "name": "new_minter_auth",
           "accounts": [
             {
               "name": "mint_wrapper",
@@ -215,7 +215,7 @@
       "discriminator": [7, 93, 245, 202, 126, 212, 61, 195],
       "accounts": [
         {
-          "name": "auth",
+          "name": "new_minter_v2_auth",
           "accounts": [
             {
               "name": "mint_wrapper",
@@ -271,7 +271,7 @@
       "discriminator": [11, 219, 68, 245, 38, 222, 221, 184],
       "accounts": [
         {
-          "name": "auth",
+          "name": "minter_update_auth",
           "accounts": [
             {
               "name": "mint_wrapper",

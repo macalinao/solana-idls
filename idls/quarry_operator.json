@@ -182,7 +182,7 @@
       "discriminator": [121, 174, 85, 150, 174, 18, 13, 31],
       "accounts": [
         {
-          "name": "with_delegate",
+          "name": "set_annual_rewards_with_delegate",
           "accounts": [
             {
               "name": "operator",
@@ -215,7 +215,7 @@
       "discriminator": [245, 238, 31, 14, 175, 233, 75, 237],
       "accounts": [
         {
-          "name": "with_delegate",
+          "name": "create_quarry_with_delegate",
           "accounts": [
             {
               "name": "operator",
@@ -267,7 +267,7 @@
       "discriminator": [69, 180, 9, 212, 75, 142, 202, 62],
       "accounts": [
         {
-          "name": "with_delegate",
+          "name": "create_quarry_v2_with_delegate",
           "accounts": [
             {
               "name": "operator",
@@ -311,7 +311,7 @@
       "discriminator": [111, 198, 20, 112, 172, 82, 102, 66],
       "accounts": [
         {
-          "name": "with_delegate",
+          "name": "set_rewards_share_with_delegate",
           "accounts": [
             {
               "name": "operator",
@@ -348,7 +348,7 @@
       "discriminator": [1, 196, 52, 171, 199, 237, 240, 134],
       "accounts": [
         {
-          "name": "with_delegate",
+          "name": "set_famine_with_delegate",
           "accounts": [
             {
               "name": "operator",
